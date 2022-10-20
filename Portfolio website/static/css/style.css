@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans&family=Noto+Serif:ital@1&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans&family=Noto+Serif:ital@1&family=Roboto+Mono:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans&family=Noto+Serif:ital@1&family=Roboto+Condensed&family=Roboto+Mono:wght@300&family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.sidebar {
+    background: lightblue;
+    font-family: 'Fira Sans', sans-ser;
+    height: 100vh;
+    margin-right: 46px;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 23px;
+}
+
+.sidebar nav li {
+    font-size: 30px;
+    list-style: none;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background: yellow; */
+    width: 90vw;
+    padding: 23px 0px;
+    margin: 0 200px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(216, 21, 148); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.devPic img {
+    height: 58vh;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-ser;
+    font-size: 3em;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.more {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    font-size: small;
+    padding: 8px 15px;
+    border-radius: 40px;
+    font-weight: bold;
+    margin: 0px 3px;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(249, 213, 9);
+    color: black;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+/* Contact CSS */
+.contactform {
+    padding-top: 144px;
+    padding: 0 34x;
+    font-family: 'Fira Sans', sans-ser;
+    font-weight: 700;
+    margin: 0px 88px;
+}
+
+.contactform h2 {
+    font-family: 'Roboto Mono', monospace;
+    padding: 12px 0;
+    margin-top: -70px;
+    /* text-align: center; */
+}
+
+.contactform div {
+
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactform div input {
+    border-radius: 3px;
+    width: 234px;
+    margin: 3px 2px;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: xx-small;
+    color: deeppink;
+    margin: 0 4px;
+}
+
+#inquiry {
+    padding: 18px 0;
+
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+
+    position: absolute;
+}
+
+.hamburgur {
+    position: absolute;
+    left: 3px;
+    top: 6px;
+    cursor: pointer;
+}
+.ham
+{
+    margin-left: 10px;
+}
+.cross
+{
+    margin-left: 168px
+}
+@media(max-width: 1615px) {
+   
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .contactform
+    {
+        margin: 40px 8px;
+    }
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+
+        position: absolute;
+    } */
+}
